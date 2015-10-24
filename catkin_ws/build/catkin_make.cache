@@ -1,0 +1,2 @@
+hector_mapping:mapping_launch:rbx1/rbx1:rbx1/rbx1_apps:rbx1/rbx1_bringup:rbx1/rbx1_description:rbx1/rbx1_dynamixels:rbx1/rbx1_nav:rbx1/rbx1_speech:rbx1/rbx1_vision:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/turtlebot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/turtlebot/catkin_ws/install -G Unix Makefiles

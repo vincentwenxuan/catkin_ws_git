@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mapping_launch")
+set(mapping_launch_MAINTAINER "turtlebot <turtlebot@todo.todo>")
+set(mapping_launch_DEPRECATED "")
+set(mapping_launch_VERSION "0.0.0")
+set(mapping_launch_BUILD_DEPENDS )
+set(mapping_launch_RUN_DEPENDS )
+set(mapping_launch_BUILDTOOL_DEPENDS "catkin")
