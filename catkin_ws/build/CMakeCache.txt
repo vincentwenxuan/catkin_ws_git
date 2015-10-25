@@ -474,6 +474,12 @@ tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
 //The directory containing a CMake configuration file for tf_conversions.
 tf_conversions_DIR:PATH=/opt/ros/indigo/share/tf_conversions/cmake
 
+//Value Computed by CMake
+turtlebot_navigation_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/turtlebot_navigation
+
+//Value Computed by CMake
+turtlebot_navigation_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/turtlebot_navigation
+
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
 

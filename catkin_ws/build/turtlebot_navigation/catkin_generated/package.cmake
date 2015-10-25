@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "turtlebot_navigation")
+set(turtlebot_navigation_MAINTAINER "turtlebot <turtlebot@todo.todo>")
+set(turtlebot_navigation_DEPRECATED "")
+set(turtlebot_navigation_VERSION "0.0.0")
+set(turtlebot_navigation_BUILD_DEPENDS "roscpp" "rospy")
+set(turtlebot_navigation_RUN_DEPENDS "roscpp" "rospy")
+set(turtlebot_navigation_BUILDTOOL_DEPENDS "catkin")
