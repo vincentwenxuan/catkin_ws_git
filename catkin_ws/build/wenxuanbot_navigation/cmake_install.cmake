@@ -1,4 +1,4 @@
-# Install script for directory: /home/turtlebot/catkin_ws/src/turtlebot_navigation
+# Install script for directory: /home/turtlebot/catkin_ws/src/wenxuanbot_navigation
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/turtlebot/catkin_ws/build/turtlebot_navigation/catkin_generated/installspace/turtlebot_navigation.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/turtlebot/catkin_ws/build/wenxuanbot_navigation/catkin_generated/installspace/wenxuanbot_navigation.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_navigation/cmake" TYPE FILE FILES
-    "/home/turtlebot/catkin_ws/build/turtlebot_navigation/catkin_generated/installspace/turtlebot_navigationConfig.cmake"
-    "/home/turtlebot/catkin_ws/build/turtlebot_navigation/catkin_generated/installspace/turtlebot_navigationConfig-version.cmake"
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wenxuanbot_navigation/cmake" TYPE FILE FILES
+    "/home/turtlebot/catkin_ws/build/wenxuanbot_navigation/catkin_generated/installspace/wenxuanbot_navigationConfig.cmake"
+    "/home/turtlebot/catkin_ws/build/wenxuanbot_navigation/catkin_generated/installspace/wenxuanbot_navigationConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_navigation" TYPE FILE FILES "/home/turtlebot/catkin_ws/src/turtlebot_navigation/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wenxuanbot_navigation" TYPE FILE FILES "/home/turtlebot/catkin_ws/src/wenxuanbot_navigation/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

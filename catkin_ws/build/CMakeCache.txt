@@ -352,7 +352,7 @@ kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 laser_geometry_DIR:PATH=/opt/ros/indigo/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libkdl_conversions.so
+lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
 
 //Value Computed by CMake
 mapping_launch_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/mapping_launch
@@ -474,14 +474,14 @@ tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
 //The directory containing a CMake configuration file for tf_conversions.
 tf_conversions_DIR:PATH=/opt/ros/indigo/share/tf_conversions/cmake
 
-//Value Computed by CMake
-turtlebot_navigation_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/turtlebot_navigation
-
-//Value Computed by CMake
-turtlebot_navigation_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/turtlebot_navigation
-
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
+
+//Value Computed by CMake
+wenxuanbot_navigation_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/wenxuanbot_navigation
+
+//Value Computed by CMake
+wenxuanbot_navigation_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/wenxuanbot_navigation
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
@@ -602,7 +602,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=13
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "wenxuanbot_navigation")
+set(wenxuanbot_navigation_MAINTAINER "turtlebot <turtlebot@todo.todo>")
+set(wenxuanbot_navigation_DEPRECATED "")
+set(wenxuanbot_navigation_VERSION "0.0.0")
+set(wenxuanbot_navigation_BUILD_DEPENDS "roscpp" "rospy")
+set(wenxuanbot_navigation_RUN_DEPENDS "roscpp" "rospy")
+set(wenxuanbot_navigation_BUILDTOOL_DEPENDS "catkin")

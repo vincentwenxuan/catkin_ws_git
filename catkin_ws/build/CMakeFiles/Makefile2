@@ -1527,9 +1527,9 @@ clean: hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/clean
 # Target rules for target hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir
 
 # All Build rule for target.
-hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/all: hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
-hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/all: hector_mapping/CMakeFiles/hector_mapping_generate_messages_py.dir/all
 hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/all: hector_mapping/CMakeFiles/hector_mapping_generate_messages_lisp.dir/all
+hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/all: hector_mapping/CMakeFiles/hector_mapping_generate_messages_py.dir/all
+hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/all: hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
 	$(MAKE) -f hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/build.make hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/depend
 	$(MAKE) -f hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/build.make hector_mapping/CMakeFiles/hector_mapping_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/turtlebot/catkin_ws/build/CMakeFiles 
@@ -2104,6 +2104,21 @@ rbx1/rbx1_description/clean:
 # Convenience name for "preinstall" pass in the directory.
 rbx1/rbx1_description/preinstall:
 .PHONY : rbx1/rbx1_description/preinstall
+
+#=============================================================================
+# Directory level rules for directory wenxuanbot_navigation
+
+# Convenience name for "all" pass in the directory.
+wenxuanbot_navigation/all:
+.PHONY : wenxuanbot_navigation/all
+
+# Convenience name for "clean" pass in the directory.
+wenxuanbot_navigation/clean:
+.PHONY : wenxuanbot_navigation/clean
+
+# Convenience name for "preinstall" pass in the directory.
+wenxuanbot_navigation/preinstall:
+.PHONY : wenxuanbot_navigation/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

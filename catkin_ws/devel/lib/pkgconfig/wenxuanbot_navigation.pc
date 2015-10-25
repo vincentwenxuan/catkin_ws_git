@@ -1,7 +1,7 @@
 prefix=/home/turtlebot/catkin_ws/devel
 
-Name: turtlebot_navigation
-Description: Description of turtlebot_navigation
+Name: wenxuanbot_navigation
+Description: Description of wenxuanbot_navigation
 Version: 0.0.0
 Cflags: 
 Libs: -L/home/turtlebot/catkin_ws/devel/lib 

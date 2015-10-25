@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws/build/CMakeFiles /home/turtlebot/catkin_ws/build/turtlebot_navigation/CMakeFiles/progress.marks
-	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_navigation/all
+	cd /home/turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws/build/CMakeFiles /home/turtlebot/catkin_ws/build/wenxuanbot_navigation/CMakeFiles/progress.marks
+	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wenxuanbot_navigation/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtlebot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_navigation/clean
+	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wenxuanbot_navigation/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_navigation/preinstall
+	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wenxuanbot_navigation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_navigation/preinstall
+	cd /home/turtlebot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 wenxuanbot_navigation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends

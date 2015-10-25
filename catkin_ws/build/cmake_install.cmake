@@ -128,6 +128,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/turtlebot/catkin_ws/build/rbx1/rbx1_nav/cmake_install.cmake")
   INCLUDE("/home/turtlebot/catkin_ws/build/hector_mapping/cmake_install.cmake")
   INCLUDE("/home/turtlebot/catkin_ws/build/rbx1/rbx1_description/cmake_install.cmake")
+  INCLUDE("/home/turtlebot/catkin_ws/build/wenxuanbot_navigation/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
