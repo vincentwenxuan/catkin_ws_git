@@ -291,3 +291,32 @@ Linking C executable cmTryCompileExec363643042
 make[1]: Leaving directory `/home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec825003850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec825003850.dir/build.make CMakeFiles/cmTryCompileExec825003850.dir/build
+make[1]: Entering directory `/home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec825003850.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec825003850.dir/CheckSymbolExists.cxx.o -c /home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec825003850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec825003850.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec825003850.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec825003850 -rdynamic 
+make[1]: Leaving directory `/home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+File /home/turtlebot/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
