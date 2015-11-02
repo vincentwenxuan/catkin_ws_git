@@ -13,6 +13,7 @@ eba3a6a490433cb0f0d3f3834188aa0e /home/turtlebot/catkin_ws/devel/include/hector_
 d68c4e34fcc916f082db409e2a8f7114 /home/turtlebot/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h
 db3353155e8f2df4ca98e594d7a3e238 /home/turtlebot/catkin_ws/devel/include/rbx1_nav/CalibrateAngularConfig.h
 505936bde87614e29aa5391d70537eff /home/turtlebot/catkin_ws/devel/include/rbx1_nav/CalibrateLinearConfig.h
+35f030bdced81d29c41ed0968a982771 /home/turtlebot/catkin_ws/devel/include/urg_node/URGConfig.h
 0a3b56daf9e8b8f59d2c7d334159cc4d /home/turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/hector_elevation_msgs/msg/_ElevationGrid.py
 7e712027badd3abccc9cb78fdecfab09 /home/turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/hector_elevation_msgs/msg/_ElevationMapMetaData.py
 84cbfc0fceefc896e9bc69feff78ed2a /home/turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/hector_elevation_msgs/msg/__init__.py
@@ -131,3 +132,7 @@ e5bc46f84e55dfa38b5e86608da20686 hector_slam/hector_nav_msgs/CMakeFiles/hector_n
 e5bc46f84e55dfa38b5e86608da20686 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy
 93e69b50a03ed4a21cc47dd349e7204e hector_slam/hector_slam/CMakeFiles/_catkin_empty_exported_target
 76df1e98df0b62f9f8cc6f305766f7b9 rbx1/rbx1_nav/CMakeFiles/rbx1_nav_gencfg
+6e47b312681c5b724ba9dfe0d1c16d21 urg_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp
+6e47b312681c5b724ba9dfe0d1c16d21 urg_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp
+6e47b312681c5b724ba9dfe0d1c16d21 urg_node/CMakeFiles/diagnostic_msgs_generate_messages_py
+6e47b312681c5b724ba9dfe0d1c16d21 urg_node/CMakeFiles/urg_node_gencfg

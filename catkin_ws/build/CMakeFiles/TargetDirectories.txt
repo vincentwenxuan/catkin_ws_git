@@ -24,6 +24,9 @@
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_exploration_planner/CMakeFiles/costmap_2d_generate_messages_cpp.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_exploration_planner/CMakeFiles/costmap_2d_generate_messages_lisp.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_exploration_planner/CMakeFiles/costmap_2d_generate_messages_py.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
 /home/turtlebot/catkin_ws/build/CMakeFiles/download_extra_data.dir
 /home/turtlebot/catkin_ws/build/CMakeFiles/doxygen.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_elevation_visualization/CMakeFiles/dynamic_reconfigure_gencfg.dir
@@ -37,6 +40,7 @@
 /home/turtlebot/catkin_ws/build/hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir
 /home/turtlebot/catkin_ws/build/hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir
 /home/turtlebot/catkin_ws/build/hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/getID.dir
 /home/turtlebot/catkin_ws/build/gtest/CMakeFiles/gtest.dir
 /home/turtlebot/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_costmap/CMakeFiles/hector_costmap.dir
@@ -117,6 +121,9 @@
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_costmap/CMakeFiles/topic_tools_generate_messages_cpp.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_costmap/CMakeFiles/topic_tools_generate_messages_lisp.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_costmap/CMakeFiles/topic_tools_generate_messages_py.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/urg_c_wrapper.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/urg_node.dir
+/home/turtlebot/catkin_ws/build/urg_node/CMakeFiles/urg_node_gencfg.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_driving_aid_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_driving_aid_markers/CMakeFiles/visualization_msgs_generate_messages_lisp.dir
 /home/turtlebot/catkin_ws/build/hector_navigation/hector_driving_aid_markers/CMakeFiles/visualization_msgs_generate_messages_py.dir

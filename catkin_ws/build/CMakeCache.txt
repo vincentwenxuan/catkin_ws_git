@@ -35,6 +35,12 @@ Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.
 //Boost signals library (release)
 Boost_SIGNALS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.so
 
+//Boost system library (debug)
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
+
+//Boost system library (release)
+Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
+
 //Boost thread library (debug)
 Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
@@ -241,6 +247,9 @@ GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
 
 //Path to a library.
 GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+LOG4CXX_LIBRARY:FILEPATH=/usr/lib/liblog4cxx.so
 
 //lsb_release executable was found
 LSB_FOUND:BOOL=TRUE
@@ -928,6 +937,15 @@ cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
 
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/indigo/share/diagnostic_msgs/cmake
+
+//The directory containing a CMake configuration file for diagnostic_updater.
+diagnostic_updater_DIR:PATH=/opt/ros/indigo/share/diagnostic_updater/cmake
+
+//The directory containing a CMake configuration file for driver_base.
+driver_base_DIR:PATH=/opt/ros/indigo/share/driver_base/cmake
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
 
@@ -1139,6 +1157,12 @@ hector_trajectory_server_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/hecto
 //Value Computed by CMake
 hector_trajectory_server_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/hector_slam/hector_trajectory_server
 
+//Value Computed by CMake
+hokuyo_node_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/hokuyo_node
+
+//Value Computed by CMake
+hokuyo_node_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/hokuyo_node
+
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
 
@@ -1148,8 +1172,14 @@ kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 //The directory containing a CMake configuration file for laser_geometry.
 laser_geometry_DIR:PATH=/opt/ros/indigo/share/laser_geometry/cmake
 
+//The directory containing a CMake configuration file for laser_proc.
+laser_proc_DIR:PATH=/opt/ros/indigo/share/laser_proc/cmake
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
+
+//Dependencies for the target
+libhokuyo_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
 
 //The directory containing a CMake configuration file for map_msgs.
 map_msgs_DIR:PATH=/opt/ros/indigo/share/map_msgs/cmake
@@ -1280,11 +1310,20 @@ rplidar_ros_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/rplidar_ros
 //Value Computed by CMake
 rplidar_ros_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/rplidar_ros
 
+//The directory containing a CMake configuration file for self_test.
+self_test_DIR:PATH=/opt/ros/indigo/share/self_test/cmake
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
+
+//Value Computed by CMake
+squirtle_frontier_exploration_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/squirtle_frontier_exploration
+
+//Value Computed by CMake
+squirtle_frontier_exploration_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/squirtle_frontier_exploration
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
@@ -1310,11 +1349,29 @@ tf_conversions_DIR:PATH=/opt/ros/indigo/share/tf_conversions/cmake
 //The directory containing a CMake configuration file for topic_tools.
 topic_tools_DIR:PATH=/opt/ros/indigo/share/topic_tools/cmake
 
+//The directory containing a CMake configuration file for urg_c.
+urg_c_DIR:PATH=/opt/ros/indigo/share/urg_c/cmake
+
+//Dependencies for the target
+urg_c_wrapper_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libliburg_c.so;general;/opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/indigo/lib/libtf.so;general;/opt/ros/indigo/lib/libtf2_ros.so;general;/opt/ros/indigo/lib/libactionlib.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libtf2.so;general;/opt/ros/indigo/lib/liblaser_proc_library.so;general;/opt/ros/indigo/lib/liblaser_publisher.so;general;/opt/ros/indigo/lib/liblaser_transport.so;general;/opt/ros/indigo/lib/liblaser_proc_ROS.so;general;/opt/ros/indigo/lib/libLaserProcNodelet.so;general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
+//Value Computed by CMake
+urg_node_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/urg_node
+
+//Value Computed by CMake
+urg_node_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/urg_node
+
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
 
 //The directory containing a CMake configuration file for voxel_grid.
 voxel_grid_DIR:PATH=/opt/ros/indigo/share/voxel_grid/cmake
+
+//Value Computed by CMake
+wenxuanbot_frontier_exploration_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/wenxuanbot_frontier_exploration
+
+//Value Computed by CMake
+wenxuanbot_frontier_exploration_SOURCE_DIR:STATIC=/home/turtlebot/catkin_ws/src/wenxuanbot_frontier_exploration
 
 //Value Computed by CMake
 wenxuanbot_navigation_BINARY_DIR:STATIC=/home/turtlebot/catkin_ws/build/wenxuanbot_navigation
@@ -1340,6 +1397,10 @@ Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
 Boost_SIGNALS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SIGNALS_LIBRARY_RELEASE
 Boost_SIGNALS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
+Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
+Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
 Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
@@ -1441,7 +1502,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=35
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=38
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1972,7 +2033,7 @@ Q_WS_WIN:INTERNAL=
 //Have symbol Q_WS_X11
 Q_WS_X11:INTERNAL=1
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=signals;thread
+_Boost_COMPONENTS_SEARCHED:INTERNAL=signals;system;thread
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
 //Last used Boost_LIBRARY_DIR value.

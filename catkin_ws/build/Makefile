@@ -1593,6 +1593,97 @@ hector_mapping_genpy/fast:
 .PHONY : hector_mapping_genpy/fast
 
 #=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_cpp
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_cpp
+.PHONY : diagnostic_msgs_generate_messages_cpp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f urg_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make urg_node/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_lisp
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_lisp
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f urg_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make urg_node/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_msgs_generate_messages_py
+
+# Build rule for target.
+diagnostic_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 diagnostic_msgs_generate_messages_py
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_py/fast:
+	$(MAKE) -f urg_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make urg_node/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+.PHONY : diagnostic_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named getID
+
+# Build rule for target.
+getID: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 getID
+.PHONY : getID
+
+# fast build rule for target.
+getID/fast:
+	$(MAKE) -f urg_node/CMakeFiles/getID.dir/build.make urg_node/CMakeFiles/getID.dir/build
+.PHONY : getID/fast
+
+#=============================================================================
+# Target rules for targets named urg_c_wrapper
+
+# Build rule for target.
+urg_c_wrapper: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 urg_c_wrapper
+.PHONY : urg_c_wrapper
+
+# fast build rule for target.
+urg_c_wrapper/fast:
+	$(MAKE) -f urg_node/CMakeFiles/urg_c_wrapper.dir/build.make urg_node/CMakeFiles/urg_c_wrapper.dir/build
+.PHONY : urg_c_wrapper/fast
+
+#=============================================================================
+# Target rules for targets named urg_node
+
+# Build rule for target.
+urg_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 urg_node
+.PHONY : urg_node
+
+# fast build rule for target.
+urg_node/fast:
+	$(MAKE) -f urg_node/CMakeFiles/urg_node.dir/build.make urg_node/CMakeFiles/urg_node.dir/build
+.PHONY : urg_node/fast
+
+#=============================================================================
+# Target rules for targets named urg_node_gencfg
+
+# Build rule for target.
+urg_node_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 urg_node_gencfg
+.PHONY : urg_node_gencfg
+
+# fast build rule for target.
+urg_node_gencfg/fast:
+	$(MAKE) -f urg_node/CMakeFiles/urg_node_gencfg.dir/build.make urg_node/CMakeFiles/urg_node_gencfg.dir/build
+.PHONY : urg_node_gencfg/fast
+
+#=============================================================================
 # Target rules for targets named costmap_2d_gencfg
 
 # Build rule for target.
@@ -1859,6 +1950,13 @@ help:
 	@echo "... hector_mapping_generate_messages_py"
 	@echo "... hector_mapping_genlisp"
 	@echo "... hector_mapping_genpy"
+	@echo "... diagnostic_msgs_generate_messages_cpp"
+	@echo "... diagnostic_msgs_generate_messages_lisp"
+	@echo "... diagnostic_msgs_generate_messages_py"
+	@echo "... getID"
+	@echo "... urg_c_wrapper"
+	@echo "... urg_node"
+	@echo "... urg_node_gencfg"
 	@echo "... costmap_2d_gencfg"
 	@echo "... costmap_2d_generate_messages_cpp"
 	@echo "... costmap_2d_generate_messages_lisp"
